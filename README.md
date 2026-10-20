@@ -1,4 +1,4 @@
-<p><img src="assets/teamkai-2025.svg" width="100%" alt="Team K.A.I. 2025 · Autonomous Driving · Perception, Planning, Control"></p>
+<p><img src=".github/assets/repository-hero.svg" width="100%" alt="Team K.A.I. 2025 — 인지·판단·제어 공개 포트폴리오"></p>
 
 # Team K.A.I. · 2025 Autonomous Driving
 
@@ -49,6 +49,13 @@ Camera · LiDAR · RTK / INS
 각 파트의 역할을 설명한 기능별 개요입니다. 대회용 연결 규약과 내부 설정은 비공개로 관리합니다.
 
 ## 선별 코드
+
+<table><tr>
+<td width="33%" valign="top"><b>01 · PERCEPTION</b><br><sub>검출 중심점 선택·정렬</sub><br><a href="examples/perception/valid_cones.py">인지 예제 →</a></td>
+<td width="33%" valign="top"><b>02 · PLANNING</b><br><sub>목표점과 추종 기하</sub><br><a href="examples/planning/lookahead.py">판단·추종 예제 →</a></td>
+<td width="33%" valign="top"><b>03 · CONTROL</b><br><sub>정지 우선과 명령 선택</sub><br><a href="examples/control/command_mux.py">제어 예제 →</a></td>
+</tr></table>
+
 
 원본에서 설명할 부분만 골라 **독립 실행 가능한 Python 예제로 축약·재작성**했습니다. 아래 코드는 표준적인 계산·상태 처리만 보여주며 실제 대회 시스템의 소스, 성능 또는 완주 재현물이 아닙니다.
 
